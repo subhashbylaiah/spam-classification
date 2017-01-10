@@ -41,8 +41,6 @@ where
 * path where the model file is generated and saved (when training) or read from 
 (when testing)
 
-invokes the corresponding algorithm
-
 This invokes the corresponding algorithm implementations
 
 DecisionTreeSolver.py implements the ID3 decision tree algorithm

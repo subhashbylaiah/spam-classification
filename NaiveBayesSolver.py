@@ -166,24 +166,6 @@ class NaiveBayesSolver:
             return max_class
 
 
-            # test_dir = '/home/subhash/Courses/AI/Assignment4/spam-classification/part1/test'
-#
-# dirs = os.listdir(test_dir)
-# for class_dir_name in dirs:
-#     total_test_cases = 0
-#     correct_predictions = 0
-#     for f in os.listdir(os.path.join(test_dir, class_dir_name )):
-#         total_test_cases += 1
-#         predicted_class = bayes_classifier.predict_simple(os.path.join(os.path.join(test_dir, class_dir_name ),f))
-#         if predicted_class == class_dir_name:
-#             correct_predictions += 1
-#     print "Prediction Accuracy for class: %s " % class_dir_name
-#     print "### Total test cases: %d,  " % (total_test_cases)
-#     print "### Correct classification: %d,  " % (correct_predictions)
-#     print "### Accuracy: %.2f,  " % (float(correct_predictions)/total_test_cases)
-
-# bayes_classifier.predict_simple('/home/subhash/Courses/AI/Assignment4/spam-classification/part1/test/notspam/0002.b3120c4bcbf3101e661161ee7efcb8bf')
-
     def predict(self, files_path, model_file):
         self.load_model_from_file(model_file)
         # run through the tree until a leaf node is reached
