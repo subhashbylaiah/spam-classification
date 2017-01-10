@@ -1,0 +1,184 @@
+{
+    "bin_tree": {
+        "attribute": "X-Spam-Status:", 
+        "attribute_idx": 1221, 
+        "attribute_split_val": 1, 
+        "depth": 1, 
+        "isleaf": null, 
+        "left_tree": {
+            "attribute": null, 
+            "attribute_idx": null, 
+            "attribute_split_val": null, 
+            "depth": 2, 
+            "isleaf": 0, 
+            "left_tree": null, 
+            "negative_class_count": 1111, 
+            "positive_class_count": 0, 
+            "right_tree": null
+        }, 
+        "negative_class_count": 1432, 
+        "positive_class_count": 1214, 
+        "right_tree": {
+            "attribute": "In-Reply-To:", 
+            "attribute_idx": 1, 
+            "attribute_split_val": 1, 
+            "depth": 2, 
+            "isleaf": null, 
+            "left_tree": {
+                "attribute": null, 
+                "attribute_idx": null, 
+                "attribute_split_val": null, 
+                "depth": 3, 
+                "isleaf": 0, 
+                "left_tree": null, 
+                "negative_class_count": 115, 
+                "positive_class_count": 0, 
+                "right_tree": null
+            }, 
+            "negative_class_count": 321, 
+            "positive_class_count": 1214, 
+            "right_tree": {
+                "attribute": "zzzz@localhost.netnoteinc.com", 
+                "attribute_idx": 227, 
+                "attribute_split_val": 1, 
+                "depth": 3, 
+                "isleaf": null, 
+                "left_tree": {
+                    "attribute": null, 
+                    "attribute_idx": null, 
+                    "attribute_split_val": null, 
+                    "depth": 4, 
+                    "isleaf": 0, 
+                    "left_tree": null, 
+                    "negative_class_count": 68, 
+                    "positive_class_count": 0, 
+                    "right_tree": null
+                }, 
+                "negative_class_count": 206, 
+                "positive_class_count": 1214, 
+                "right_tree": {
+                    "attribute": "reserved.", 
+                    "attribute_idx": 345, 
+                    "attribute_split_val": 1, 
+                    "depth": 4, 
+                    "isleaf": null, 
+                    "left_tree": {
+                        "attribute": null, 
+                        "attribute_idx": null, 
+                        "attribute_split_val": null, 
+                        "depth": 5, 
+                        "isleaf": 0, 
+                        "left_tree": null, 
+                        "negative_class_count": 53, 
+                        "positive_class_count": 6, 
+                        "right_tree": null
+                    }, 
+                    "negative_class_count": 138, 
+                    "positive_class_count": 1214, 
+                    "right_tree": {
+                        "attribute": null, 
+                        "attribute_idx": null, 
+                        "attribute_split_val": null, 
+                        "depth": 5, 
+                        "isleaf": 1, 
+                        "left_tree": null, 
+                        "negative_class_count": 85, 
+                        "positive_class_count": 1208, 
+                        "right_tree": null
+                    }
+                }
+            }
+        }
+    }, 
+    "freq_tree": {
+        "attribute": "X-Spam-Status:", 
+        "attribute_idx": 1221, 
+        "attribute_split_val": 1, 
+        "depth": 1, 
+        "isleaf": null, 
+        "left_tree": {
+            "attribute": null, 
+            "attribute_idx": null, 
+            "attribute_split_val": null, 
+            "depth": 2, 
+            "isleaf": 0, 
+            "left_tree": null, 
+            "negative_class_count": 1111, 
+            "positive_class_count": 0, 
+            "right_tree": null
+        }, 
+        "negative_class_count": 1432, 
+        "positive_class_count": 1214, 
+        "right_tree": {
+            "attribute": "In-Reply-To:", 
+            "attribute_idx": 1, 
+            "attribute_split_val": 1, 
+            "depth": 2, 
+            "isleaf": null, 
+            "left_tree": {
+                "attribute": null, 
+                "attribute_idx": null, 
+                "attribute_split_val": null, 
+                "depth": 3, 
+                "isleaf": 0, 
+                "left_tree": null, 
+                "negative_class_count": 115, 
+                "positive_class_count": 0, 
+                "right_tree": null
+            }, 
+            "negative_class_count": 321, 
+            "positive_class_count": 1214, 
+            "right_tree": {
+                "attribute": "zzzz@localhost.netnoteinc.com", 
+                "attribute_idx": 227, 
+                "attribute_split_val": 1, 
+                "depth": 3, 
+                "isleaf": null, 
+                "left_tree": {
+                    "attribute": null, 
+                    "attribute_idx": null, 
+                    "attribute_split_val": null, 
+                    "depth": 4, 
+                    "isleaf": 0, 
+                    "left_tree": null, 
+                    "negative_class_count": 68, 
+                    "positive_class_count": 0, 
+                    "right_tree": null
+                }, 
+                "negative_class_count": 206, 
+                "positive_class_count": 1214, 
+                "right_tree": {
+                    "attribute": "<a", 
+                    "attribute_idx": 1020, 
+                    "attribute_split_val": 8, 
+                    "depth": 4, 
+                    "isleaf": null, 
+                    "left_tree": {
+                        "attribute": null, 
+                        "attribute_idx": null, 
+                        "attribute_split_val": null, 
+                        "depth": 5, 
+                        "isleaf": 0, 
+                        "left_tree": null, 
+                        "negative_class_count": 65, 
+                        "positive_class_count": 16, 
+                        "right_tree": null
+                    }, 
+                    "negative_class_count": 138, 
+                    "positive_class_count": 1214, 
+                    "right_tree": {
+                        "attribute": null, 
+                        "attribute_idx": null, 
+                        "attribute_split_val": null, 
+                        "depth": 5, 
+                        "isleaf": 1, 
+                        "left_tree": null, 
+                        "negative_class_count": 73, 
+                        "positive_class_count": 1198, 
+                        "right_tree": null
+                    }
+                }
+            }
+        }
+    }
+}
